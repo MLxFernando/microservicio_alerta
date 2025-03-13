@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copiamos los archivos necesarios
-COPY . /app
+COPY . /app/
 
 # Instalamos las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
